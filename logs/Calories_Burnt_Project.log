@@ -1,0 +1,20 @@
+2025-12-18 18:33:57,004 - root - INFO - Project started
+2025-12-18 18:33:57,005 - root - INFO - Loading exercise and calories datasets
+2025-12-18 18:33:57,035 - root - INFO - Exercise dataset shape: (15000, 8)
+2025-12-18 18:33:57,035 - root - INFO - Calories dataset shape: (15000, 2)
+2025-12-18 18:33:57,035 - root - INFO - Datasets loaded successfully
+2025-12-18 18:33:57,035 - root - INFO - Merging datasets on User_ID
+2025-12-18 18:33:57,050 - root - INFO - Merged dataset shape: (15000, 9)
+2025-12-18 18:33:57,050 - root - INFO - Dropping unnecessary columns
+2025-12-18 18:33:57,053 - root - INFO - Encoding Gender
+2025-12-18 18:33:57,057 - root - INFO - Final dataset shape after preprocessing: (15000, 8)
+2025-12-18 18:33:57,065 - root - INFO - X_train: (10050, 7)
+2025-12-18 18:33:57,065 - root - INFO - X_test: (4950, 7)
+2025-12-18 18:33:57,065 - root - INFO - y_train: (10050,)
+2025-12-18 18:33:57,065 - root - INFO - y_test: (4950,)
+2025-12-18 18:33:57,077 - root - INFO - Training Linear Regression model
+2025-12-18 18:33:57,092 - root - INFO - Train R2 Score: 0.9676004204744925
+2025-12-18 18:33:57,092 - root - INFO - Test R2 Score: 0.9663701348612176
+2025-12-18 18:33:57,093 - root - INFO - Model saved to calories.pkl
+2025-12-18 18:33:57,125 - root - INFO - Model loaded from calories.pkl
+2025-12-18 18:33:57,125 - root - INFO - Predicted Calories: 336.8955116570861
